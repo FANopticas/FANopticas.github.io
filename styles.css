@@ -2,6 +2,12 @@ body {
   font-family: 'Inter', system-ui, sans-serif;
 }
 
+@media (max-width: 767px) {
+  #home {
+    padding-top: 8rem;
+  }
+}
+
 .glass-card {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
