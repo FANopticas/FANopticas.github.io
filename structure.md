@@ -77,10 +77,10 @@ Custom prescription glasses and designer sunglasses delivered to your door in Co
 #### Product 3: Modern Round
 - **Brand:** FAN Opticas
 - **Category:** Prescription
-- **Price:** $280,000 COP
+- **Price:** $80,000 COP
 - **Description:** Trendy round frames for any prescription
 
-#### Product 4: Sport Pro
+#### Product 4: Cat's Eye
 - **Brand:** Oakley
 - **Category:** Sunglasses
 - **Price:** $480,000 COP
@@ -89,7 +89,7 @@ Custom prescription glasses and designer sunglasses delivered to your door in Co
 #### Product 5: Executive Rectangular
 - **Brand:** FAN Opticas
 - **Category:** Prescription
-- **Price:** $320,000 COP
+- **Price:** $120,000 COP
 - **Description:** Professional look with blue light filter
 
 #### Product 6: Retro Cat Eye

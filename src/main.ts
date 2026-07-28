@@ -98,7 +98,7 @@ const products: Product[] = [
     name: { en: 'Classic Aviator', es: 'Aviador Clasico' },
     brand: 'Ray-Ban',
     category: 'prescription',
-    price: 350000,
+    price: 650000,
     image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=400&fit=crop',
     description: { en: 'Iconic design with prescription lenses', es: 'Diseno iconico con lentes de formula' }
   },
@@ -107,7 +107,7 @@ const products: Product[] = [
     name: { en: 'Wayfarer Black', es: 'Wayfarer Negro' },
     brand: 'Ray-Ban',
     category: 'sunglasses',
-    price: 420000,
+    price: 620000,
     image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop',
     description: { en: 'Classic aviator sunglasses', es: 'Gafas de sol aviador clasicas' }
   },
@@ -116,16 +116,16 @@ const products: Product[] = [
     name: { en: 'Modern Round', es: 'Redondo Moderno' },
     brand: 'FAN Opticas',
     category: 'prescription',
-    price: 280000,
+    price: 80000,
     image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=400&h=400&fit=crop',
     description: { en: 'Trendy round frames for any prescription', es: 'Monturas redondas modernas para cualquier formula' }
   },
   {
     id: 4,
-    name: { en: 'Sport Pro', es: 'Sport Pro' },
+    name: { en: 'Cat Eye ', es: 'Ojo de Gato' },
     brand: 'Oakley',
     category: 'sunglasses',
-    price: 480000,
+    price: 90000,
     image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?w=400&h=400&fit=crop',
     description: { en: 'High-performance sports sunglasses', es: 'Gafas de sol deportivas de alto rendimiento' }
   },
@@ -167,7 +167,7 @@ const products: Product[] = [
   },
   {
     id: 11,
-    name: { en: 'Laser Defense L3', es: 'Defensa Laser L3' },
+    name: { en: 'Polarized L3', es: 'Polarizados L3' },
     brand: 'FAN Opticas Pro',
     category: 'specialized',
     price: 690000,
@@ -1090,7 +1090,7 @@ function getSeedPurchaseHistory(): OrderRecord[] {
     {
       id: 'ORD-813924',
       date: new Date(Date.now() - 1000 * 60 * 60 * 24 * 32).toISOString(),
-      total: 280000,
+      total: 80000,
       status: 'delivered',
       items: ['Modern Round Frame', 'Blue Light Filter']
     },
