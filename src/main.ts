@@ -319,7 +319,7 @@ function updateLanguage(): void {
   document.documentElement.lang = state.currentLang;
   const langToggle = qs<HTMLButtonElement>('#langToggle');
   if (langToggle) {
-    langToggle.textContent = state.currentLang === 'es' ? 'ES / EN' : 'EN / ES';
+    langToggle.textContent = state.currentLang === 'es' ? 'ES ' : 'EN';
   }
 
   document.querySelectorAll('[data-en]').forEach((el) => {
